@@ -2,6 +2,7 @@ udpproxy
 ========
 
 Udp Proxy util for proxy udp unicast to multicast and vice versa.
+
 1)  udpproxy: The proxy server, recv from in_* config and send to out_*
     ./udpproxy udpproxy.ini
         The ini config file support multi proxy instances.
@@ -16,5 +17,6 @@ Udp Proxy util for proxy udp unicast to multicast and vice versa.
 
 2)  udpsend: test util.
     udpsend out_ip out_port
-2)  udprecv: test util.
+    
+3)  udprecv: test util.
     udprecv in_ip in_port
